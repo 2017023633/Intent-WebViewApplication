@@ -1,7 +1,7 @@
 # Intent-WebViewApplication  
 ### 内容：使用intent和webview实现简易的浏览网页功能  
 ### 代码： 
-#### Intent  
+### Intent  
 ```
 public class MainActivity extends AppCompatActivity {
     private String url;
@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```  
-#### layout  
+### layout  
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
     </LinearLayout>
 </LinearLayout>
 ```  
-#### WebView  
+### WebView  
 ```
 public class MainActivity extends AppCompatActivity {
     private WebView webView;
